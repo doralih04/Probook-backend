@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/ProBook.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/ProBook.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/ProBook.Application.csproj",
+        "projectName": "ProBook.Application",
+        "projectPath": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/ProBook.Application.csproj",
+        "packagesPath": "/Users/leonel/.nuget/packages/",
+        "outputPath": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/ProBook.Domain.csproj": {
+                "projectPath": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/ProBook.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[16.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@6/6.0.136_1/libexec/sdk/6.0.136/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/ProBook.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/ProBook.Domain.csproj",
+        "projectName": "ProBook.Domain",
+        "projectPath": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/ProBook.Domain.csproj",
+        "packagesPath": "/Users/leonel/.nuget/packages/",
+        "outputPath": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@6/6.0.136_1/libexec/sdk/6.0.136/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/ProBook.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/ProBook.Infrastructure.csproj",
+        "projectName": "ProBook.Infrastructure",
+        "projectPath": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/ProBook.Infrastructure.csproj",
+        "packagesPath": "/Users/leonel/.nuget/packages/",
+        "outputPath": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/ProBook.Application.csproj": {
+                "projectPath": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/ProBook.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Google.Cloud.Firestore": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.16.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@6/6.0.136_1/libexec/sdk/6.0.136/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.csproj.AssemblyReference.cache
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.AssemblyInfoInputs.cache
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.AssemblyInfo.cs
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.csproj.CoreCompileInputs.cache
