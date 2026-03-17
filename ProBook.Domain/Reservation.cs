@@ -1,4 +1,5 @@
 using System;
+using ProBook.Domain.Enums;
 
 namespace ProBook.Domain.Entities
 {

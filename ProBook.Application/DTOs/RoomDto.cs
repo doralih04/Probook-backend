@@ -10,5 +10,6 @@ namespace ProBook.Application.DTOs
         public decimal Price { get; set; }
         public string Description { get; set; }
         public string ImageUrl { get; set; }
+        public List<string> Amenities { get; set; } = new List<string>();
     }
 }

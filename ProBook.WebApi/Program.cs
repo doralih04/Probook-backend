@@ -3,12 +3,17 @@ using Microsoft.IdentityModel.Tokens;
 using ProBook.Application.Mappers;
 using ProBook.Infrastructure;
 using ProBook.WebApi.Middleware;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -36,7 +41,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateIssuerSigningKey = true,
             ValidIssuer = "ProBook",
             ValidAudience = "ProBook",
-            IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("your-secret-key-here"))
+            IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("your-super-secret-key-that-must-be-at-least-256-bits-long"))
         };
     });
 
@@ -47,7 +52,7 @@ builder.Services.AddAuthorization(options =>
 });
 
 // Add AutoMapper
-builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddAutoMapper(config => config.AddProfile<MappingProfile>());
 
 // Add Infrastructure services
 builder.Services.AddInfrastructure();

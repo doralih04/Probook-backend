@@ -8,7 +8,7 @@ namespace ProBook.Domain.Enums
 
     public enum RoomType
     {
-        Individual,
+        Single,
         Double,
         Suite
     }
