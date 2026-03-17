@@ -31,8 +31,8 @@ namespace ProBook.WebApi.Controllers
                     ? new
                     {
                         roomId = MockDataStore.Reservations.First(r => r.UserId == u.Id).RoomId,
-                        checkInDate = MockDataStore.Reservations.First(r => r.UserId == u.Id).CheckInDate,
-                        checkOutDate = MockDataStore.Reservations.First(r => r.UserId == u.Id).CheckOutDate,
+                        checkInDate = MockDataStore.Reservations.First(r => r.UserId == u.Id).CheckIn,
+                        checkOutDate = MockDataStore.Reservations.First(r => r.UserId == u.Id).CheckOut,
                         totalPrice = MockDataStore.Reservations.First(r => r.UserId == u.Id).TotalPrice
                     }
                     : null
