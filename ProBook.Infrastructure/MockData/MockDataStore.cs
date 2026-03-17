@@ -8,7 +8,7 @@ namespace ProBook.Infrastructure.MockData
         public static List<User> Users { get; } = new List<User>
         {
             new User { Id = 1, Name = "Admin", Email = "admin@probook.com", Role = UserRole.Manager, HasReserved = false },
-            new User { Id = 2, Name = "Regular User", Email = "user@probook.com", Role = UserRole.Guest, HasReserved = false }
+            new User { Id = 2, Name = "Regular User", Email = "user@probook.com", Role = UserRole.Guest, HasReserved = true }
         };
 
         public static List<Room> Rooms { get; } = new List<Room>
@@ -21,6 +21,18 @@ namespace ProBook.Infrastructure.MockData
             new Room { Id = 6, Name = "Single Economy", Type = RoomType.Single, Price = 60, Description = "Budget room for one", ImageUrl = "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400" }
         };
 
-        public static List<Reservation> Reservations { get; } = new List<Reservation>();
+        public static List<Reservation> Reservations { get; } = new List<Reservation>
+        {
+            new Reservation
+            {
+                Id = 1,
+                UserId = 2,
+                RoomId = 1,
+                CheckIn = new DateTime(2026, 3, 15),
+                CheckOut = new DateTime(2026, 3, 18),
+                Status = ReservationStatus.Confirmed,
+                TotalPrice = 600
+            }
+        };
     }
 }
