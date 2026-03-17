@@ -3,20 +3,15 @@ using ProBook.Application.DTOs;
 using ProBook.Application.Interfaces;
 using ProBook.Domain.Entities;
 using ProBook.Domain.Enums;
+using ProBook.Infrastructure.MockData;
 
 namespace ProBook.Infrastructure.Services
 {
     public class ReservationService : IReservationService
     {
-        private readonly List<Reservation> _reservations = new List<Reservation>();
-        private readonly List<User> _users = new List<User>
-        {
-            new User { Id = 1, Name = "Admin", Email = "admin@probook.com", Role = UserRole.Manager, HasReserved = false }
-        };
-
         public async Task<IEnumerable<ReservationDto>> GetAllReservationsAsync()
         {
-            return _reservations.Select(r => new ReservationDto
+            return MockDataStore.Reservations.Select(r => new ReservationDto
             {
                 Id = r.Id,
                 UserId = r.UserId,
@@ -30,7 +25,7 @@ namespace ProBook.Infrastructure.Services
 
         public async Task<IEnumerable<ReservationDto>> GetReservationsByUserIdAsync(int userId)
         {
-            return _reservations.Where(r => r.UserId == userId).Select(r => new ReservationDto
+            return MockDataStore.Reservations.Where(r => r.UserId == userId).Select(r => new ReservationDto
             {
                 Id = r.Id,
                 UserId = r.UserId,
@@ -44,7 +39,7 @@ namespace ProBook.Infrastructure.Services
 
         public async Task<ReservationDto> CreateReservationAsync(ReservationDto reservationDto)
         {
-            var user = _users.FirstOrDefault(u => u.Id == reservationDto.UserId);
+            var user = MockDataStore.Users.FirstOrDefault(u => u.Id == reservationDto.UserId);
             if (user == null)
             {
                 throw new ArgumentException("User not found");
@@ -57,7 +52,7 @@ namespace ProBook.Infrastructure.Services
 
             var newReservation = new Reservation
             {
-                Id = _reservations.Any() ? _reservations.Max(r => r.Id) + 1 : 1,
+                Id = MockDataStore.Reservations.Any() ? MockDataStore.Reservations.Max(r => r.Id) + 1 : 1,
                 UserId = reservationDto.UserId,
                 RoomId = reservationDto.RoomId,
                 CheckIn = reservationDto.CheckIn,
@@ -66,7 +61,7 @@ namespace ProBook.Infrastructure.Services
                 TotalPrice = reservationDto.TotalPrice
             };
 
-            _reservations.Add(newReservation);
+            MockDataStore.Reservations.Add(newReservation);
             user.HasReserved = true;
 
             return new ReservationDto

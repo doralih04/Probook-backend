@@ -1,0 +1,15 @@
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ProBook.Application.csproj.AssemblyReference.cache
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ProBook.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ProBook.Application.AssemblyInfoInputs.cache
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ProBook.Application.AssemblyInfo.cs
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ProBook.Application.csproj.CoreCompileInputs.cache
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/bin/Debug/net6.0/ProBook.Application.deps.json
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/bin/Debug/net6.0/ProBook.Application.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/bin/Debug/net6.0/ref/ProBook.Application.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/bin/Debug/net6.0/ProBook.Application.pdb
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/bin/Debug/net6.0/ProBook.Domain.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/bin/Debug/net6.0/ProBook.Domain.pdb
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ProBook.Application.csproj.CopyComplete
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ProBook.Application.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ref/ProBook.Application.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ProBook.Application.pdb

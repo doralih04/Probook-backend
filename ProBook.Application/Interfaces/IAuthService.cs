@@ -1,3 +1,4 @@
+using ProBook.Application.DTOs;
 using ProBook.Application.DTOs.Auth;
 
 namespace ProBook.Application.Interfaces

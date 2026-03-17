@@ -1,0 +1,17 @@
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ProBook.Infrastructure.csproj.AssemblyReference.cache
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ProBook.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ProBook.Infrastructure.AssemblyInfoInputs.cache
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ProBook.Infrastructure.AssemblyInfo.cs
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ProBook.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/bin/Debug/net6.0/ProBook.Infrastructure.deps.json
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/bin/Debug/net6.0/ProBook.Infrastructure.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/bin/Debug/net6.0/ref/ProBook.Infrastructure.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/bin/Debug/net6.0/ProBook.Infrastructure.pdb
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/bin/Debug/net6.0/ProBook.Application.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/bin/Debug/net6.0/ProBook.Domain.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/bin/Debug/net6.0/ProBook.Application.pdb
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/bin/Debug/net6.0/ProBook.Domain.pdb
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ProBook.Infrastructure.csproj.CopyComplete
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ProBook.Infrastructure.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ref/ProBook.Infrastructure.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ProBook.Infrastructure.pdb

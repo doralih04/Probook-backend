@@ -8,21 +8,28 @@ using ProBook.Application.DTOs.Auth;
 using ProBook.Application.Interfaces;
 using ProBook.Domain.Entities;
 using ProBook.Domain.Enums;
+using ProBook.Infrastructure.MockData;
 
 namespace ProBook.Infrastructure.Services
 {
+    /// <summary>
+    /// Servicio de autenticación que maneja login y registro de usuarios.
+    /// Utiliza datos mock y genera tokens JWT para sesiones.
+    /// </summary>
     public class AuthService : IAuthService
     {
-        private readonly List<User> _users = new List<User>
-        {
-            new User { Id = 1, Name = "Admin", Email = "admin@probook.com", Role = UserRole.Manager, HasReserved = false }
-        };
+        private readonly string _secretKey = "your-super-secret-key-that-must-be-at-least-256-bits-long"; // In production, use environment variable
 
-        private readonly string _secretKey = "your-secret-key-here"; // In production, use environment variable
-
+        /// <summary>
+        /// Autentica a un usuario con email y contraseña.
+        /// Valida contra datos mock (admin@probook.com/admin123 para Manager).
+        /// </summary>
+        /// <param name="request">Credenciales del usuario.</param>
+        /// <returns>Token JWT y datos del usuario si es válido.</returns>
+        /// <exception cref="UnauthorizedAccessException">Si las credenciales son inválidas.</exception>
         public async Task<AuthResponse> LoginAsync(LoginRequest request)
         {
-            var user = _users.FirstOrDefault(u => u.Email == request.Email);
+            var user = MockDataStore.Users.FirstOrDefault(u => u.Email == request.Email);
             if (user == null || request.Password != "admin123") // Simple check
             {
                 throw new UnauthorizedAccessException("Invalid credentials");
@@ -41,17 +48,23 @@ namespace ProBook.Infrastructure.Services
             return new AuthResponse { Token = token, User = userDto };
         }
 
+        /// <summary>
+        /// Registra un nuevo usuario en el sistema.
+        /// Asigna rol 'Guest' por defecto y simula registro exitoso.
+        /// </summary>
+        /// <param name="request">Datos del nuevo usuario.</param>
+        /// <returns>Datos del usuario registrado.</returns>
         public async Task<UserDto> RegisterAsync(RegisterRequest request)
         {
             var newUser = new User
             {
-                Id = _users.Max(u => u.Id) + 1,
+                Id = MockDataStore.Users.Any() ? MockDataStore.Users.Max(u => u.Id) + 1 : 1,
                 Name = request.Name,
                 Email = request.Email,
                 Role = UserRole.Guest,
                 HasReserved = false
             };
-            _users.Add(newUser);
+            MockDataStore.Users.Add(newUser);
 
             return new UserDto
             {
@@ -63,6 +76,12 @@ namespace ProBook.Infrastructure.Services
             };
         }
 
+        /// <summary>
+        /// Genera un token JWT para el usuario autenticado.
+        /// Incluye claims de ID, email y rol.
+        /// </summary>
+        /// <param name="user">Usuario para el cual generar el token.</param>
+        /// <returns>Token JWT como string.</returns>
         private string GenerateJwtToken(User user)
         {
             var claims = new[]

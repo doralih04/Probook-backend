@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6BBUixcbm77wa4YD9d1htyrZz8ZoKZVtl65oyvRXduw=",
+  "Source": "ProBook.WebApi",
+  "BasePath": "_content/ProBook.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

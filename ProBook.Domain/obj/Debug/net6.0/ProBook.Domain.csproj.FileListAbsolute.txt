@@ -3,3 +3,10 @@
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.AssemblyInfoInputs.cache
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.AssemblyInfo.cs
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.csproj.CoreCompileInputs.cache
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/bin/Debug/net6.0/ProBook.Domain.deps.json
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/bin/Debug/net6.0/ProBook.Domain.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/bin/Debug/net6.0/ref/ProBook.Domain.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/bin/Debug/net6.0/ProBook.Domain.pdb
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ref/ProBook.Domain.dll
+/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.pdb

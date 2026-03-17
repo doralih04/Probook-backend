@@ -1,3 +1,5 @@
+using ProBook.Domain.Enums;
+
 namespace ProBook.Domain.Entities
 {
     public class User
