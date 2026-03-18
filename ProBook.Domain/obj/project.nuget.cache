@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vKC6zrYU2qy8MancS7Obr6TTidGlbJvcCrBySSCja0KIwUiR8jCbcb6iWT6MnCxPY0n7Vv/G68PZglIXToRZ/w==",
+  "dgSpecHash": "wlTY6c8BocI=",
   "success": true,
-  "projectFilePath": "/Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/ProBook.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\leone\\Documents\\Repos\\PRG WB\\Proyecto Progra Web Final\\Probook-backend\\ProBook.Domain\\ProBook.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leone\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\leone\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\leone\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

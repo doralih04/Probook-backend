@@ -15,3 +15,21 @@
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ProBook.Infrastructure.dll
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ref/ProBook.Infrastructure.dll
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Infrastructure/obj/Debug/net6.0/ProBook.Infrastructure.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\bin\Debug\net6.0\ProBook.Infrastructure.deps.json
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\bin\Debug\net6.0\ProBook.Infrastructure.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\bin\Debug\net6.0\ProBook.Infrastructure.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\bin\Debug\net6.0\ProBook.Application.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\bin\Debug\net6.0\ProBook.Domain.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\bin\Debug\net6.0\ProBook.Application.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\bin\Debug\net6.0\ProBook.Domain.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\obj\Debug\net6.0\ProBook.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\obj\Debug\net6.0\ProBook.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\obj\Debug\net6.0\ProBook.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\obj\Debug\net6.0\ProBook.Infrastructure.AssemblyInfo.cs
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\obj\Debug\net6.0\ProBook.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\obj\Debug\net6.0\ProBook.Infrastructure.sourcelink.json
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\obj\Debug\net6.0\ProBook..3ED6E5C6.Up2Date
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\obj\Debug\net6.0\ProBook.Infrastructure.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\obj\Debug\net6.0\refint\ProBook.Infrastructure.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\obj\Debug\net6.0\ProBook.Infrastructure.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Infrastructure\obj\Debug\net6.0\ref\ProBook.Infrastructure.dll
