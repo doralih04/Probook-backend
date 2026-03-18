@@ -10,3 +10,16 @@
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.dll
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ref/ProBook.Domain.dll
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Domain/obj/Debug/net6.0/ProBook.Domain.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\bin\Debug\net6.0\ProBook.Domain.deps.json
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\bin\Debug\net6.0\ProBook.Domain.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\bin\Debug\net6.0\ProBook.Domain.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\obj\Debug\net6.0\ProBook.Domain.csproj.AssemblyReference.cache
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\obj\Debug\net6.0\ProBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\obj\Debug\net6.0\ProBook.Domain.AssemblyInfoInputs.cache
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\obj\Debug\net6.0\ProBook.Domain.AssemblyInfo.cs
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\obj\Debug\net6.0\ProBook.Domain.csproj.CoreCompileInputs.cache
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\obj\Debug\net6.0\ProBook.Domain.sourcelink.json
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\obj\Debug\net6.0\ProBook.Domain.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\obj\Debug\net6.0\refint\ProBook.Domain.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\obj\Debug\net6.0\ProBook.Domain.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Domain\obj\Debug\net6.0\ref\ProBook.Domain.dll

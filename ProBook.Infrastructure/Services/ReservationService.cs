@@ -45,11 +45,6 @@ namespace ProBook.Infrastructure.Services
                 throw new ArgumentException("User not found");
             }
 
-            if (user.HasReserved)
-            {
-                throw new InvalidOperationException("User has already made a reservation");
-            }
-
             var newReservation = new Reservation
             {
                 Id = MockDataStore.Reservations.Any() ? MockDataStore.Reservations.Max(r => r.Id) + 1 : 1,
@@ -62,7 +57,6 @@ namespace ProBook.Infrastructure.Services
             };
 
             MockDataStore.Reservations.Add(newReservation);
-            user.HasReserved = true;
 
             return new ReservationDto
             {

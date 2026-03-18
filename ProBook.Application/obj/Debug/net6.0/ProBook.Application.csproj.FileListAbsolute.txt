@@ -13,3 +13,19 @@
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ProBook.Application.dll
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ref/ProBook.Application.dll
 /Users/leonel/Documents/Poryecto web/Probook-backend/ProBook.Application/obj/Debug/net6.0/ProBook.Application.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\bin\Debug\net6.0\ProBook.Application.deps.json
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\bin\Debug\net6.0\ProBook.Application.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\bin\Debug\net6.0\ProBook.Application.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\bin\Debug\net6.0\ProBook.Domain.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\bin\Debug\net6.0\ProBook.Domain.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\obj\Debug\net6.0\ProBook.Application.csproj.AssemblyReference.cache
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\obj\Debug\net6.0\ProBook.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\obj\Debug\net6.0\ProBook.Application.AssemblyInfoInputs.cache
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\obj\Debug\net6.0\ProBook.Application.AssemblyInfo.cs
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\obj\Debug\net6.0\ProBook.Application.csproj.CoreCompileInputs.cache
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\obj\Debug\net6.0\ProBook.Application.sourcelink.json
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\obj\Debug\net6.0\ProBook..30C0F7E0.Up2Date
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\obj\Debug\net6.0\ProBook.Application.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\obj\Debug\net6.0\refint\ProBook.Application.dll
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\obj\Debug\net6.0\ProBook.Application.pdb
+C:\Users\leone\Documents\Repos\PRG WB\Proyecto Progra Web Final\Probook-backend\ProBook.Application\obj\Debug\net6.0\ref\ProBook.Application.dll
